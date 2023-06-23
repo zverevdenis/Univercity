@@ -1,0 +1,8 @@
+$zBase: 10;
+$zAbove: 1;
+$zBelow: -1;
+
+
+$zHeader: $zBase;
+$zMain: $zBelow + $zHeader;
+$zModal: $zAbove + $zHeader;

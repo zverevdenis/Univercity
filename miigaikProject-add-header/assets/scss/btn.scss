@@ -1,0 +1,40 @@
+.grt-btn {
+    --btn-primary-color: linear-gradient(#a5cc52, #b8e356);
+}
+
+.btn--orange {
+    --btn-primary-color: linear-gradient(rgba(252, 173, 72, 0.8), #ffc477);
+}
+
+.grt-btn--azure {
+    --btn-primary-color: #13b8ae;
+}
+
+.grt-btn--filled {
+    color: #f9f9f9;
+}
+
+.grt-btn--block {
+    width: 100%;
+    max-width: unset;
+}
+
+.grt-btn--small {
+    padding-top: 7px;
+    padding-bottom: 8px;
+
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.grt-btn--adaptive {
+    @media (min-width: $desktop-mid){
+        flex-shrink: 1;
+        padding: 0.74vw 1.58vw;
+        font-size: 1vw;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 15px;
+    }
+}
